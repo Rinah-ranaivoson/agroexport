@@ -1,4 +1,9 @@
 
+:root {
+    --primary-color: #0887d6; 
+    --secondary-color: #031230; 
+}
+
 /*** Spinner Start ***/
 /*** Spinner ***/
 #spinner {
@@ -73,18 +78,23 @@
 
 .btn.btn-primary:hover {
     background: var(--bs-dark);
-    color: var(--bs-primary);
+    color: var(--primary-color); 
 }
 
 .btn.btn-light {
-    color: var(--bs-primary);
+    color: var(--primary-color);
     border: none;
 }
 
 .btn.btn-light:hover {
     color: var(--bs-white);
-    background: var(--bs-primary);
+    background: var(--primary-color);
 }
+
+.text_primary {
+    color: var(--primary-color);  
+}
+
 
 /*** Navbar ***/
 
@@ -114,7 +124,7 @@
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-item .nav-link:hover,
 .navbar-light .navbar-nav .nav-item .nav-link.active  {
-    color: var(--bs-primary);
+    color: var(--primary-color);
 }
 
 .navbar-light .navbar-brand img {
@@ -136,7 +146,7 @@
 }
 
 .dropdown .dropdown-menu a:hover {
-    background: var(--bs-primary);
+    background: var(--primary-color);
     color: var(--bs-white);
 }
 
@@ -156,8 +166,8 @@
 
     .navbar.navbar-expand-lg .navbar-toggler {
         padding: 10px 20px;
-        border: 1px solid var(--bs-primary);
-        color: var(--bs-primary);
+        border: 1px solid var(--primary-color);
+        color: var(--primary-colory);
     }
 
     .navbar-light .navbar-collapse {
@@ -215,7 +225,7 @@
         height: 2px;
         bottom: -1px;
         left: 50%;
-        background: var(--bs-primary);
+        background: var(--primary-color);
         transition: .5s;
     }
 
@@ -232,7 +242,7 @@
         height: 0;
         bottom: -1px;
         left: 50%;
-        background: var(--bs-primary);
+        background: var(--primary-colory);
         transition: .5s;
     }
 
@@ -261,7 +271,7 @@
     width: 60px;
     height: 60px;
     border-radius: 60px;
-    background: var(--bs-primary);
+    background: var(--primary-color);
     color: var(--bs-white);
     font-size: 26px;
     display: flex;
@@ -283,7 +293,7 @@
 .header-carousel .owl-nav .owl-prev:hover,
 .header-carousel .owl-nav .owl-next:hover {
     box-shadow: inset 0 0 100px 0 var(--bs-light);
-    color: var(--bs-primary);
+    color: var(--primary-color);
 }
 
 
@@ -417,7 +427,7 @@
 }
 
 .feature .feature-item:hover {
-    border: 1px solid var(--bs-primary);
+    border: 1px solid var(--primary-color);
 }
 
 .feature .feature-item .feature-icon {
@@ -438,7 +448,7 @@
 
 .offer-section .nav a.accordion-link.active {
     color: var(--bs-white);
-    background: var(--bs-primary);
+    background: var(--primary-color);
 }
 
 .offer-section .nav a.accordion-link h5 {
@@ -452,7 +462,7 @@
 
 /*** Footer Start ***/
 .footer {
-    background: var(--bs-secondary);
+    background: var(--secondary-color);
 }
 
 .footer .footer-item {
@@ -471,7 +481,7 @@
 }
 
 .footer .footer-item a:hover {
-    color: var(--bs-primary);
+    color: var(--bs-white);
 }
 
 .footer .footer-item .footer-btn a,
@@ -484,7 +494,7 @@
 }
 
 .footer .footer-item .footer-btn a:hover i {
-    color: var(--bs-primary);
+    color: var(--primary-color);
 }
 /*** Footer End ***/
 
